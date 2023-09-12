@@ -1,0 +1,119 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Fitlife Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body >
+    <nav class="sticky-navbar"> 
+        <div class="navbar">
+          <a href="index.html">
+            <img class="Marchio" src="img/marchio.png" alt="Logo">
+          </a>
+          <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Discipline</a>
+              <div class="dropdown-content">
+                <a href="Powerlifting.html">Power Lifting</a>
+                <a href="bodybuilding.html">Body Building</a>
+                <a href="Calisthenics.html">Calisthenics</a>
+              </div>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Alimentazione</a>
+              <div class="dropdown-content">
+                <a href="massa.html">Massa</a>
+                <a href="#">Definizione</a>
+                <a href="#">Doping</a>
+              </div>
+            </li>
+            <li><a href="About us.html">About us</a></li>
+          </ul>
+        </div>
+    
+        <div class="hamburger-menu">
+    
+        </div>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <div class="mobile-container">
+            <div class="topnav">
+              <div id="myLinks"> 
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <img class="icon" src="img/manubrio.png" width="30 px">
+              </a>
+            </div>
+          </div>
+ </nav>
+
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+ <script>
+  const hamburgerMenu = document.querySelector('.hamburger-menu');
+  const navLinks = document.querySelector('.nav-links');
+
+  hamburgerMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+ 
+<section>
+  <div class="row">
+      <div style="margin:auto;">
+      <img src="img/about_us.jpg" class="img-responsive">
+      </div>
+
+      <div class="separatore"></div>
+      <div class="row">
+        <div style="float: left; width: 100%; background: #7F7B82; border-radius: 80px; height: 600px;">
+          <div style="padding:134px 35px;float:right">
+          <p>Fitlife Hub &egrave; un sito dedicato al mondo della palestra e del fitness. Il team di appassionati fornisce informazioni, consigli pratici e ispirazione per aiutare le persone a raggiungere i propri obiettivi di fitness e vivere uno stile di vita sano. Il sito copre una vasta gamma di argomenti, inclusi allenamenti, nutrizione, tendenze del fitness, recupero e miglioramento delle prestazioni. L'approccio del team &egrave; completo, con attenzione non solo all'aspetto fisico, ma anche alla salute generale, alla motivazione, all'equilibrio mentale e alla costruzione di una comunit&agrave; attiva. <br />Unisciti a noi nella nostra missione di rendere il mondo della palestra accessibile a tutti, indipendentemente dal livello di fitness o dalle esperienze precedenti. Siamo fiduciosi che troverai il nostro sito un'importante risorsa per raggiungere i tuoi obiettivi di fitness e vivere una vita pi&ugrave; sana e attiva.<br />Il tuo successo &egrave; la nostra priorit&agrave;. Grazie per aver scelto Fitlife Hub, e ti auguriamo un viaggio di fitness gratificante e pieno di soddisfazioni!</p>   
+          
+          <img src="img/marchio.png" alt="surplus" style="text-align: center; position: relative; width: 630px; padding-left: 350px; margin-top: 65px;">
+          </div>
+
+          <div class="separatore"></div>
+
+          <div class="row" style="padding-top:100px">
+              
+            <div class="giallo"> 
+           <div class="grid_8"> <a href="index.html">Home </a></div>
+           <div class="grid_8"> <a href="Powerlifting.html">Power Lifting </a></div>
+           <div class="grid_8"> <a href="bodybuilding.html">Body Buiding </a></div>
+           <div class="grid_8"> <a href="Calisthenics.html">Calisthenics </a></div>
+           <div class="grid_8"> <a href="massa.html">Massa </a></div>
+           <div class="grid_8"> <a href="#">Definizione </a></div>
+           <div class="grid_8"> <a href="#">Doping </a></div>
+           <div class="grid_8"> <a href="#">Chi Siamo </a></div>
+                <div class="row">
+                    <div style="width:20%;float: left;"><hr style="margin-top:40px; border:solid 1px black"></div>
+                    <div style="width:60%;float: left; text-align: center;"><img class="social" src="img/Facebook.png"> <img class="social" src="img/Instagram.png"> <img class="social" src="img/Twitter.png"> <img class="social" src="img/Youtube.png"></div>
+                    <div style="width:20%;float: left;"><hr style="margin-top:40px; border:solid 1px black"></div>
+          
+                </div>
+          
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+</section>
+          </body>
+          
+          </html>
+      

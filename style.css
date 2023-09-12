@@ -1,0 +1,666 @@
+
+body {
+    background-color: #181818;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Kodchasan', sans-serif;
+    color: white;
+  
+  }
+
+  nav {
+    position: fixed; 
+   top: 0; 
+   width: 100%; 
+    background-color: rgba(127, 123, 130, 0.7);
+    height: 60px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    font-family: 'Kodchasan', sans-serif;
+  }
+  .sticky-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(127, 123, 130, 0.7);
+    height: 60px;
+    z-index: 1000;
+ }
+
+  .Marchio {
+    width: 160px;
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    font-family: 'Kodchasan', sans-serif;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .content {
+    padding: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #59575C;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #59575C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .Body2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Light', sans-serif;
+    color: #FFFFFF;
+  }
+  
+  .rectangle {
+    position: absolute;
+    width: 100%;
+    height: 1088px;
+    top: 832px;
+    background: #181818;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2;
+  }
+  
+  .hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    margin: 3px 0;
+    background-color: white;
+  }
+  
+  @media screen and (max-width: 720px){
+    nav {
+      background-color: rgba(127, 123, 130, 0.9);
+      height: auto;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+    .nav-links {
+        flex-direction: column;
+        margin-top: 10px;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: rgba(127, 123, 130, 0.9);
+        width: 100%;
+        z-index: 1;
+        display: none; 
+      }
+    
+      .nav-links.active {
+        display: flex;
+      }
+    }
+    
+    
+    .topnav #myLinks {
+      display: none;
+      margin-right: 0px;
+    margin-left: auto;
+    width: fit-content;
+    background-color: black;
+    
+    }
+    
+    
+    .topnav a {
+      
+      color: white;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .topnav a.icon {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 5px;
+      width: auto;
+      height: auto;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    @media screen and (min-width: 600px) {
+      .mobile-container{
+    display:none;
+    
+    }
+    }
+
+
+    .title {
+        
+        font-style: normal;
+        font-weight: 700;
+        font-size: 5vw;
+        color: #FFE600;
+        text-align: center;
+        padding-top: 50px;
+      }
+
+    .img-responsive{
+        width:100%;
+        max-width:100%
+    }
+
+
+.destro{
+    float:right;
+    width: 50%;
+    text-align: center;
+}
+.sinistro{
+    float:left;
+    width: 50%;
+    text-align: center;
+}
+
+@media screen and (max-width: 572px){
+
+    .destro{
+        float:right;
+        width: 100%;
+        text-align: center;
+    }
+    .sinistro{
+        float:left;
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+.row{
+
+ content: "";
+  clear: both;
+
+}
+
+.contenitore{
+    width: 100%;
+    margin: auto;
+}
+
+.grid_3{
+    float:left;
+    width: 33%;
+    text-align: center;
+}
+
+
+
+
+
+.image {
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .cont {
+    position: relative;
+    width: 100%;
+  }
+
+  .cont:hover .image {
+    opacity: 0.3;
+  }
+  
+  .cont:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
+  .grid_2 {
+    float:left;
+    width: 50%;
+    text-align: center;
+
+  }
+
+  @media screen and (max-width: 572px){
+
+    .grid_2 {
+
+        width: 100%;
+       margin-bottom: 20px;
+    
+      }
+
+
+
+
+  }
+
+  .zoom:hover{
+
+    transform: scale(1.2);
+    transition: .5s ease;
+    
+  }
+
+  .grid_8{
+    float:left;
+    width: 12.5%;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 572px){
+
+
+    .grid_8{
+     
+        width: 50%;
+
+      }
+  }
+  .grid_8 a{
+    padding-top:30px;
+    color:black;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+  }
+
+  .giallo{
+
+    width: 100%;
+    height:150px; 
+    background: #FFE600;
+  }
+  
+  @media screen and (max-width: 572px){
+
+    .giallo{
+
+
+        
+        height:300px; 
+        
+      }
+  }
+
+  .social{
+
+    width: 50px;
+    padding: 15px;
+  }
+
+  @media screen and (max-width: 572px){
+
+    .social{
+
+        width: 40px;
+      }
+  }
+
+  .separatore{
+
+    width: 100%;
+    float: left;
+    height: 200px;
+  }
+
+
+
+
+
+
+  .you{
+    font-family: 'Kodchasan', sans-serif;
+    color: yellow;
+    font-size: 3vw;
+    margin-left: 100px;
+    margin-top: 150px;
+  }
+   
+  .choose{
+    font-family: 'Kodchasan', sans-serif;
+    color: yellow;
+    font-size: 3vw;
+    margin-left: 100px;
+  }
+  
+  
+  .bulk{
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 6vw;
+    color: white;
+    margin-left: 100px;
+   }
+  
+  
+   .ball{
+    margin-left: 1500px;
+    margin-top: -500px;
+    
+   }
+  
+  
+  .testo1 {
+    margin-top: 450px;
+    margin-left: 800px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1000px;
+    text-align: right;
+    text-align: justify;
+    position: absolute;
+    line-height: 1.5;
+  }
+  
+  
+  
+  .pancia{
+    margin-top: 700px;
+    margin-left: 100px;
+  }
+  
+  
+  .surplus{
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Kodchasan', sans-serif;
+    color: yellow;
+  }
+  
+  
+  .testo2 {
+
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+  
+  .canottanera{
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  
+  .dieta{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Kodchasan', sans-serif;
+    color: yellow;
+  }
+  
+  
+  .testo3{
+    margin-top: 100px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+  
+  .dieta1{
+    margin-top: 100px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+  
+  .dieta2{
+    margin-top: 50px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+  
+   .dieta3{
+    margin-top: 50px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+   }
+  
+  
+   .dieta4{
+    margin-top: 50px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+   }
+  
+  
+   .banane{
+    margin-top: 100px;
+    margin-left: 890px;
+   }
+  
+  
+  
+  
+   .allenamento{
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Kodchasan', sans-serif;
+    color: yellow;
+   }
+  
+  
+  .testo4parte1{
+    margin-top: 50px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+  
+  
+  .testo4parte2{
+    margin-top: 50px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+  }
+  
+  
+  
+  .allenamentomassa{
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+
+
+  .doping{
+    text-align: left;
+    font-size: 3vw;
+    margin-left: 100px;
+    margin-top: 1300px;
+    font-family: 'Kodchasan', sans-serif;
+    color: yellow;
+  }
+  
+  
+  
+  
+  .doppiobraccio{
+    margin-top: 200px;
+    margin-left: 50px;
+  }
+  
+  .braccio{
+    margin-top: 100px;
+    margin-left: 900px;
+  }
+  
+  .qualiconosciamo{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Kodchasan', sans-serif;
+    color: yellow;
+  }
+  
+
+  
+  
+  
+  .siringa{
+   margin-top: 100px;
+    text-align: left;
+   margin-left: 150px;
+  }
+  
+  
+  .mangiarepillole{
+    text-align: right;
+    margin-right: 150px;
+    margin-top: -360px;
+  }
+  
+  
+  .diuretici{
+    margin-top: 100px;
+    text-align: left;
+    margin-left: 150px;
+  }
+  
+  
+  .betablock{
+    margin-top: -350px;
+    text-align: right;
+    margin-right: 150px;
+  }
+  
+  
+  .conseguenze{
+    text-align: left;
+    font-size: 3vw;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-family: 'Kodchasan', sans-serif;
+    color: yellow;
+  }
+  
+  
+  
+  .tovaglia{
+    margin-top: 0px;
+    text-align: right;
+    margin-right: 150px;
+  }

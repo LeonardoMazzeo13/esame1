@@ -1,0 +1,301 @@
+
+nav {
+    background-color: rgba(127, 123, 130, 0.7);
+    height: 60px;
+  }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+    font-family: 'Kodchasan', sans-serif;
+  }
+  
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: 'Kodchasan', sans-serif;
+  }
+  
+.nav-links li {
+    margin-left: 20px;
+  }
+  
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.Marchio {
+    width: 160px;
+    height: auto;
+}
+
+.content {
+  padding: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #59575C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #59575C;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.title {
+  font-family: 'Kodchasan', sans-serif;
+  position: absolute;
+  width: 388px;
+  height: 283px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 1.4;
+  text-align: left;
+  top: 900px;
+  padding-left: 80px;
+  color: #FFE600;
+}
+
+.description {
+  position: absolute;
+  width: 597px;
+  font-family: Helvetica, sans-serif;
+  font-size: 2vw;
+  line-height: 1.5;
+  text-align: left;
+  text-align: justify;
+  top: 1050px;
+  padding-left: 80px;
+  color: #FFFFFF;
+}
+
+.descriptiongara {
+  position: absolute;
+  width: 587px;
+  font-family: Helvetica, sans-serif;
+  font-size: 2vw;
+  line-height: 1.5;
+  text-align: left;
+  text-align: justify;
+  top: 998px;
+  padding-left: 80px;
+  color: #FFFFFF;
+}
+
+.gara {
+  font-family: 'Kodchasan', sans-serif;
+  position: absolute;
+  width: 388px;
+  height: 283px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 1.4;
+  text-align: left;
+  top: 742px;
+  padding-left: 80px;
+  color: #FFE600;
+}
+
+.rectangle-1 {
+  position: absolute;
+  width: 322.23px;
+  height: 428px;
+  left: 814px;
+  top: 900px;
+  border-radius: 117px;
+}
+
+.rectangle-2 {
+  position: absolute;
+  width: 322.23px;
+  height: 428px;
+  left: 900px;
+  top: 1290px;
+  border-radius: 117px;
+}
+
+@font-face {
+  font-family: 'Kodchasan';
+  src: url('Kodchasan-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: #181818;
+  margin: 0;
+  padding: 0;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.image-1 {
+  position: absolute;
+  width: 322.23px;
+  height: 428px;
+  left: 814px;
+  top: 900px;
+  border-radius: 117px;
+  background: url(img/Presti.png) center / cover no-repeat;
+}
+
+.title2 {
+  font-family: 'Kodchasan', sans-serif;
+  position: absolute;
+  width: 388px;
+  height: 383px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 1.4;
+  text-align: left;
+  top: 1600px;
+  padding-left: 80px;
+  color: #FFE600;
+}
+
+.description2 {
+  position: absolute;
+  width: 597px;
+  font-family: Helvetica, sans-serif;
+  font-size: 2vw;
+  line-height: 1.5;
+  text-align: left;
+  text-align: justify;
+  top: 1750px;
+  padding-left: 80px;
+  color: #FFFFFF;
+}
+
+.titlegara {
+  font-family: 'Kodchasan', sans-serif;
+  position: absolute;
+  width: 388px;
+  height: 383px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 1.4;
+  text-align: left;
+  top: 4600px;
+  padding-left: 80px;
+  color: #FFE600;
+}
+
+.descriptiongara {
+  position: absolute;
+  width: 597px;
+  font-family: Helvetica, sans-serif;
+  font-size: 2vw;
+  line-height: 1.5;
+  text-align: left;
+  text-align: justify;
+  top: 4700px;
+  padding-left: 80px;
+  color: #FFFFFF;
+}
+
+.image-containergara {
+  position: relative;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.imagegara,
+.imagegara2 {
+  width: 322.23px;
+  height: 428px;
+  top: 900px;
+  border-radius: 117px;
+}
+
+.imagegara {
+  position: absolute;
+  width: 322.23px;
+  height: 428px;
+  left: 814px;
+  top: 4500px;
+  border-radius: 117px;
+  background: url(img/Medaglia.png) center / cover no-repeat;
+}
+
+.imagegara2 {
+  position: absolute;
+  width: 322.23px;
+  height: 428px;
+  left: 900px;
+  top: 4890px;
+  border-radius: 117px;
+  background: url(img/Posa.png) center / cover no-repeat;
+}
+
+.dieta {
+  font-family: 'Kodchasan', sans-serif;
+  position: absolute;
+  width: 388px;
+  height: 383px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 5vw;
+  line-height: 1.4;
+  text-align: left;
+  top: 5500px;
+  padding-left: 80px;
+  color: #FFE600;
+}
+
+.descriptiondieta {
+  text-align: center;
+  position: absolute;
+  width: 597px;
+  font-family: Helvetica, sans-serif;
+  font-size: 2vw;
+  line-height: 1.5;
+  text-align: left;
+  text-align: justify;
+  top: 5650px;
+  padding-left: 80px;
+  color: #FFFFFF;
+}
+
+
+
+.imagedieta {
+  position: absolute;
+  width: 922.23px;
+  height: 428px;
+  left: 84px;
+  top: 8700px;
+  border-radius: 117px;
+  background: url(img/Dieta.png) center / cover no-repeat;
+}
+

@@ -1,0 +1,222 @@
+
+
+
+
+@font-face {
+  font-family: 'Kodchasan';
+  src: url('Kodchasan-Regular.ttf') format('truetype');
+}
+html{
+  margin: 0px;
+  padding: 0px;
+  width: 100%
+}
+body {
+  background-color: #181818;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+nav {
+  position: fixed; 
+ top: 0; 
+ width: 100%; 
+  background-color: rgba(127, 123, 130, 0.7);
+  height: 60px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  font-family: 'Kodchasan', sans-serif;
+}
+
+.sticky-navbar {
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: rgba(127, 123, 130, 0.7);
+  height: 60px;
+  z-index: 1000; /* Assicurati che la navbar si sovrapponga ad altri elementi */
+}
+
+
+.Marchio {
+  width: 160px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Kodchasan', sans-serif;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  padding: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #59575C;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #59575C;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+ 
+ 
+.doping{
+  text-align: left;
+  font-size: 3vw;
+  margin-left: 100px;
+  margin-top: 1300px;
+  font-family: 'Kodchasan', sans-serif;
+  color: yellow;
+}
+
+
+.testo1{
+  margin-top: 100px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 1vw;
+  width: 1700px;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 100px;
+}
+
+.doppiobraccio{
+  margin-top: 200px;
+  margin-left: 50px;
+}
+
+.braccio{
+  margin-top: 100px;
+  margin-left: 900px;
+}
+
+.qualiconosciamo{
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Kodchasan', sans-serif;
+  color: yellow;
+}
+
+.testo2{
+  margin-top: 100px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 1vw;
+  width: 1600px;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 100px;
+}
+
+
+
+.siringa{
+ margin-top: 100px;
+  text-align: left;
+ margin-left: 150px;
+}
+
+
+.mangiarepillole{
+  text-align: right;
+  margin-right: 150px;
+  margin-top: -360px;
+}
+
+
+.diuretici{
+  margin-top: 100px;
+  text-align: left;
+  margin-left: 150px;
+}
+
+
+.betablock{
+  margin-top: -350px;
+  text-align: right;
+  margin-right: 150px;
+}
+
+
+.conseguenze{
+  text-align: left;
+  font-size: 3vw;
+  margin-left: 100px;
+  margin-top: 200px;
+  font-family: 'Kodchasan', sans-serif;
+  color: yellow;
+}
+
+
+.testo3{
+  margin-top: 100px;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 1vw;
+  width: 1000px;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 100px;
+}
+
+.tovaglia{
+  margin-top: 0px;
+  text-align: right;
+  margin-right: 150px;
+}
+
+
+
+
+  
+  
+  
