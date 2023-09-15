@@ -9,7 +9,102 @@ body {
   
   }
 
-  nav {
+.container {
+    position: relative;
+    text-align: center;
+    color: white;   
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7vw;
+  font-family: 'Kodchasan', sans-serif;
+  font-style: italic;
+}
+
+.containerpl {
+  position: relative;
+  text-align: center;
+  color: white;   
+}
+
+.centeredpl {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 7vw;
+font-family: 'Kodchasan', sans-serif;
+font-style: italic;
+}
+
+.containerbb {
+  position: relative;
+  text-align: center;
+  color: white;   
+}
+
+.centeredbb {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 7vw;
+font-family: 'Kodchasan', sans-serif;
+font-style: italic;
+}
+
+.containercl {
+  position: relative;
+  text-align: center;
+  color: white;   
+}
+
+.centeredcl {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 7vw;
+font-family: 'Kodchasan', sans-serif;
+font-style: italic;
+}
+
+.containerdoping {
+  position: relative;
+  text-align: center;
+  color: white;   
+}
+
+.bottomrightdoping {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 7vw;
+  color: yellow;
+  
+}
+
+.containeraboutus {
+  position: relative;
+  text-align: center;
+  color: white;   
+}
+
+.bottomrightaboutus {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 7vw;
+  font-family: 'Kodchasan', sans-serif;
+  color: yellow;
+}
+ 
+  
+nav {
     position: fixed; 
    top: 0; 
    width: 100%; 
