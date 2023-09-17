@@ -79,12 +79,15 @@ font-style: italic;
   color: white;   
 }
 
-.bottomrightdoping {
+.centereddoping {
   position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 7vw;
-  color: yellow;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 7vw;
+font-family: 'Kodchasan', sans-serif;
+font-style: italic;
+color: yellow;
   
 }
 
@@ -548,7 +551,14 @@ nav {
     color: yellow;
   }
   
-  
+  .aboutustext {
+    font-family: 'Kodchasan', sans-serif;
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 250px;
+    margin-right: 200px;
+  }
+
   .testo2 {
 
     color: white;
@@ -574,7 +584,6 @@ nav {
     color: yellow;
   }
   
-  
   .testo3{
     margin-top: 100px;
     color: white;
@@ -585,19 +594,9 @@ nav {
     line-height: 1.5;
     margin-left: 100px;
   }
-  
-  .dieta1{
-    margin-top: 100px;
-    color: white;
-    font-family: Helvetica, sans-serif;
-    font-size: 1vw;
-    width: 1600px;
-    text-align: left;
-    line-height: 1.5;
-    margin-left: 100px;
-  }
-  
-  .dieta2{
+
+
+   .dieta5{
     margin-top: 50px;
     color: white;
     font-family: Helvetica, sans-serif;
@@ -606,9 +605,31 @@ nav {
     text-align: left;
     line-height: 1.5;
     margin-left: 100px;
-  }
-  
-   .dieta3{
+   }
+
+   .dieta6{
+    margin-top: 50px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+   }
+
+   .dieta7{
+    margin-top: 50px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 1vw;
+    width: 1600px;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: 100px;
+   }
+
+   .dieta8{
     margin-top: 50px;
     color: white;
     font-family: Helvetica, sans-serif;
@@ -619,8 +640,7 @@ nav {
     margin-left: 100px;
    }
   
-  
-   .dieta4{
+   .dieta9{
     margin-top: 50px;
     color: white;
     font-family: Helvetica, sans-serif;
@@ -630,7 +650,6 @@ nav {
     line-height: 1.5;
     margin-left: 100px;
    }
-  
   
    .banane{
     margin-top: 100px;
@@ -759,3 +778,4 @@ nav {
     text-align: right;
     margin-right: 150px;
   }
+
